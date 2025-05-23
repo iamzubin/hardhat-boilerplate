@@ -1,6 +1,13 @@
 {
+  "name": "solidity-boilerplate",
+  "version": "1.0.0",
+  "description": "Solidity project using solc-js",
+  "scripts": {
+    "compile": "node scripts/compile.js"
+  },
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "hardhat": "^2.24.0"
+    "solc": "^0.8.28",
+    "fs-extra": "^11.2.0",
+    "semver": "^7.5.4"
   }
 }
